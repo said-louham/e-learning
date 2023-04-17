@@ -1,0 +1,227 @@
+.Footer{
+    /* width: 100%;
+    height: 17rem; */
+    background-color: #508E8D ;
+    display: grid; 
+    grid-template-columns: 40% 25% 35%;
+    /* flex-flow: row nowrap;
+    align-items: center; */
+}
+
+
+/* ------- section left -------------- */
+.Footer .section-left{
+    display: grid;
+    grid-template-rows: 30% 45% 25%;
+    /* width: calc(100%/3);
+    height: 100%; */
+    /* display: flex;
+    flex-flow: column nowrap; */
+    /* justify-content: center; */
+}
+.section-img{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    
+}
+.section-img img{
+   width: 111px;
+}
+.section-img p{
+    font-weight: 700;
+    font-size: 1.7rem;
+    font-family: Julee;
+    color: #55BBCC;
+    margin-top: 1rem;
+}
+
+.section-about{
+    /* width: 100%;
+    height: 50%; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    
+}
+.section-about h5{
+    font-family: arial;
+    font-weight: 600;
+    color: #F3E9D2;
+    font-size: 1.5rem;
+}
+.section-about p{
+    max-width: 90%;
+    height: 70%;
+    color: #F3E9D2 ;
+    text-shadow: black 3px 5px 11px;
+}
+
+.section-icons{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section-icons .circle{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 1.3rem;
+}
+.section-icons .circle *{
+    color: white;
+    font-size: 1.7rem;
+}
+
+
+/* ------- section center -------------- */
+.section-center{
+    display: grid;
+    grid-template-rows: 20% 80% ;
+    overflow: hidden;
+
+    
+}
+.section-center h5{
+   
+    display: grid;
+    place-items: center;
+    font-family: arial;
+    font-weight: 600;
+    color: #F3E9D2;
+    font-size: 1.5rem;
+}
+.section-center div{
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;
+    
+}
+.section-center div p{
+    width: 90%;
+    color: #F3E9D2;
+    text-shadow: black 3px 5px 11px;
+}
+
+
+
+/* ------- section right -------------- */
+.Footer .section-right{
+
+ 
+    display: grid;
+    grid-template-rows: 20% 80% ;
+}
+
+.section-right h5{
+   
+    display: grid;
+    place-items: center;
+    font-family: arial;
+    font-weight: 600;
+    color: #F3E9D2;
+    font-size: 1.5rem;
+}
+.section-right .contact-info{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-right .contact-info div{
+   
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: .5rem;
+}
+.section-right .contact-info div .icons-contact{
+    color: #F3E9D2 ;
+    font-size: 1.9rem;
+    margin-bottom: 11px;
+}
+.section-right .contact-info div p{
+
+    color: #F3E9D2 ;
+    font-size: 1.3rem;
+    margin-left: 11px;
+}
+
+/* --------------------- Rsponsive ---------------- */
+@media (max-width: 800px) {
+       .section-icons{
+        width: 2%;
+        height: 2%;
+        display: none;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .section-right .contact-info div .icons-contact{
+        color: #ffb300 ;
+        font-size: 1.3rem;
+        margin-bottom: px;
+    }
+    .section-right .contact-info div p{
+        color: #F3E9D2 ;
+        font-size: 1rem;
+        margin-left: 11px;
+    }
+    .section-icons{
+        width: 100%;
+        height: 22%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .Footer{
+      
+        grid-template-columns: 50%  ;
+      
+    }
+    .section-left {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        width: 100%;
+       
+       
+    }
+    .section-center {
+        
+        grid-row: 2;
+    }
+    .section-right {
+     
+        grid-row: 2 ;
+    }
+    
+}
+.section-center div::-webkit-scrollbar {
+    width: 0px;
+  }
+.section-center div::-webkit-scrollbar-thumb {
+    background: #F3E9D2; 
+    border-radius: 10px;
+}
+  
+ 
+
+
+

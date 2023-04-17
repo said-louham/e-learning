@@ -1,0 +1,133 @@
+.Card-teams{
+    width: 20.5rem;
+    height: 25rem;
+    background-color: #88D498;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.Card-teams .section-img{
+    width: 11rem;
+    height: 11rem;
+    margin-bottom:5px;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.Card-teams .section-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Card-teams h1{
+    font-size: 2.3rem;
+    color: #152D5D;
+    font-family: Inknut Antiqua;
+}
+
+.Card-teams h5{
+    font-size: 1rem;
+    color: #232ACF;
+    font-family:  Inria Serif;
+    margin-top: 1.1rem ;
+}
+
+.section-icons-teams{
+    /* width: 80%; */
+    /* height: 5rem; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.section-icons-teams .circle{
+    width: 30px;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 1.3rem;
+}
+.section-icons-teams .circle *{
+    color: white;
+    /* font-size: 1.7rem; */
+}
+.slide-teams{
+    border: 2px black solid;
+   
+   
+}
+@media (max-width: 1350px) {
+    .Card-teams{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .Card-teams .section-img{
+        width: 80px;
+        height: 11rem;
+      
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+    }
+    .Card-teams .section-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .Card-teams h1{
+        font-size: 20px;
+        text-align: center;
+        color: #152D5D;
+        font-family: Inknut Antiqua;
+    }
+    
+    .Card-teams h5{
+        font-size: 1rem;
+        color: #232ACF;
+        font-family:  Inria Serif;
+        margin-top: 1.1rem ;
+        text-align: center;
+    }
+    
+    .section-icons-teams{
+        width: 80%;
+        height: 5rem;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    
+    .section-icons-teams .circle{
+        width: 90px;
+        height: 50px;
+        border: 3px solid white;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin-left: 1.3rem;
+    }
+    .section-icons-teams .circle *{
+        color: white;
+        font-size: 1rem;
+    }
+    
+
+}

@@ -1,0 +1,31 @@
+.ButtonCoin{
+    display: flex;
+    
+}
+.ButtonCoin button{
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background: #88D498AD;
+}
+.ButtonCoin{
+    margin:  15px ;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+
+}
+.ButtonCoin button{
+   
+    margin-right: 20px; 
+    margin-block: auto;
+    
+}
+.ButtonCoin h1{
+    margin-left: 10%;
+
+}

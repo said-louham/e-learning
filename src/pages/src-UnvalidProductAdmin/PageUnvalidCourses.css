@@ -1,0 +1,157 @@
+.PageUnvalidCourses{
+    /* border: black solid 1px; */
+    width: 1100px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #70779310;
+}
+
+.PageUnvalidCourses .title{
+    /* border: red solid 1px ; */
+    width: 100%;
+    height: 3rem;
+    color: #55BBCC;
+    font-family: inter;
+}
+
+.PageUnvalidCourses .content{
+    /* border: blue solid 1px; */
+    width: 100%;
+    min-height: 70vh;
+    background-color: #EBFAFD;
+}
+.PageUnvalidCourses .content .content-header{
+    width: 100%;
+    height: 2.5rem;
+    /* border:  red solid 1px; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PageUnvalidCourses .content .content-header h5{
+    /* border: grey solid 1px; */
+    width: calc(100%/7);
+    color: #737870;
+    font-size: 1rem;
+    font-family: italic;
+    text-align: center;
+}
+
+.PageUnvalidCourses .content .Content-UnvalidCourses{
+    /* border: green solid 1px; */
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+/* ----------- Card Courses Unvalaid ------------ */
+.CardCoursesUnvalaid{
+    width: 100%;
+    height: 7rem;
+    /* border-bottom: 1px solid grey; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.CardCoursesUnvalaid div{
+    width: calc(100%/7);
+    /* border: red solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CardCoursesUnvalaid div p{
+    font-family: italic;
+    font-size: .9rem;
+}
+
+.CardCoursesUnvalaid .content-img img{
+    width: 75%;
+    border-radius: 15px;
+}
+
+.CardCoursesUnvalaid .Owner{
+    color: #88D498;
+}
+
+.CardCoursesUnvalaid .price p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.CardCoursesUnvalaid .ShowMore{
+    display: flex;
+    justify-content: center;
+}
+.CardCoursesUnvalaid .ShowMore button{
+    width: 70%;
+    border: none;
+    background-color: #44DDDA ;
+    color: white;
+    border-radius: 12px;
+}
+.CardCoursesUnvalaid .Btns-Accepte{
+    display: flex ;
+    flex-flow: column nowrap;
+}
+.CardCoursesUnvalaid .Btns-Accepte .accept{
+    width: 70%;
+    border: none;
+    background-color: #3BBA9C ;
+    color: white;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.CardCoursesUnvalaid .Btns-Accepte .reject{
+    width: 70%;
+    border: none;
+    background-color: #D7434C ;
+    color: white;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+
+/* ---------------- MoreInfoCourse ------------- */
+.MoreInfoCourse{
+    padding: 0px 15px;
+    width: 30rem;
+    min-height: 15rem;
+    background-color: #B0DFE9;
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.MoreInfoCourse .section-icon{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: flex-end
+}
+.MoreInfoCourse .section-icon *{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.MoreInfoCourse .section-info{
+    width: 100%;
+    min-height: 15rem;
+    display: flex;
+    flex-flow: column nowrap;   
+}
+
+.MoreInfoCourse .section-info h3{
+    color: #232ACF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.MoreInfoCourse .section-info p{
+    width: 100%;
+    min-height: 1rem;
+    padding-left: 1.5rem;
+}
