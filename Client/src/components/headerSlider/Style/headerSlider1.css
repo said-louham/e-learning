@@ -1,0 +1,33 @@
+.haeder-silder1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    height: 420px;
+    background-color: aliceblue;
+    /* border-radius: 20px; */
+}
+.haeder-silder1 .circle{
+    background: #AA9D9D;
+    border-radius:50%;
+    height: 250px;
+    width: 250px;
+}
+.haeder-silder1 .left-side{
+    margin-top: 30px;
+    margin-right: -10px;
+}
+.haeder-silder1 p {
+    font-size: larger;
+    font-weight:bolder;
+    color: #1F9450;
+}
+.haeder-silder1 h1 {
+
+    color: #152D5D;
+   font-style: italic;
+   /* font-size: xx-large; */
+   font-size: 40px;
+
+   font-weight: bolder;
+}
+

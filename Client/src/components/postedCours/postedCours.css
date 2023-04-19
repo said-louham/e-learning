@@ -1,0 +1,16 @@
+.postedPage{
+    display: grid;
+    grid-template-columns: 60%;
+    row-gap: 20px;
+    justify-content: center;
+    background-color: #F5F5F5;
+    
+}
+@media only screen and (max-width: 900px) {
+  
+    .postedPage{
+   
+        grid-template-columns: 95%;
+        
+    }
+  }

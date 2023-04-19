@@ -1,0 +1,18 @@
+.SearchContent {
+    width: 98%;
+    height: 100%;
+    /* border: green solid 1px; */
+}
+
+.Cards {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* display: grid;
+    justify-content: center;
+    gap: 0;
+    grid-template-columns: auto auto  auto ; */
+    padding-top: 4.5rem;
+
+}

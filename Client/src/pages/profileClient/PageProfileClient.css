@@ -1,0 +1,209 @@
+.pageProfileClient {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #fddcaa10; */
+}
+
+/* ----------- section img profile --------------- */
+.pageProfileClient .Section-img {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+
+}
+
+.pageProfileClient .Section-img .border-img {
+    /* background-color: rgb(135, 127, 127); */
+    width: 13%;
+    height: 75%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pageProfileClient .Section-img .border-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pageProfileClient .Section-img .border-img input {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* ----------- section info --------------- */
+.Section-info {
+    /* border: #082e79 solid 1px; */
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.Section-info .section-left div,
+.Section-info .section-right div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Section-info .section-left,
+.Section-info .section-right {
+    /* border: green solid 1px; */
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Section-info .section-left {
+    align-items: flex-end;
+}
+
+.Section-info .section-right .gender {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 11px;
+}
+
+.Section-info .section-right .gender div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.Section-info .section-right .gender div input {
+    width: 1.3rem;
+    background-color: #29d9d9;
+    cursor: pointer;
+}
+.Section-info .section-right .gender div label{
+    cursor: pointer;
+}
+
+.Section-info .section-left div label,
+.Section-info .section-right div label {
+    color: #082e79;
+    font-family: inter;
+    margin-left: 10px;
+}
+
+.Section-info .section-left div input,
+.Section-info .section-right div input {
+    width: 23rem;
+    height: 2.5rem;
+    border: none;
+    /* background-color: #bdc0cf; */
+    outline: none;
+    border-radius: 10px;
+    padding-left: 11px;
+}
+
+.chngPass {
+    color: rgb(58, 137, 206);
+    font-size: 12px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.chngPass:hover {
+    color: rgb(84, 220, 211);
+}
+
+/* ----------- section Butoon Save --------------- */
+
+.section-button {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section-button button {
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 13px;
+    border: none;
+    background-color: #88D498;
+    font-weight: 700;
+    color: #ffff;
+}
+
+
+/* ----------------- Form Change Password ----------- */
+.FormChangePass {
+    width: 27rem;
+    height: 19rem;
+    background-color: #3A506B;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13rem;
+    display: flex ;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    box-shadow: .3rem .3rem 5rem #6FFFE9 ;
+}
+
+.FormChangePass .section-top{
+    width: 115%;
+    height: 2.1rem;
+    margin-top: -1.9rem;
+    display: flex;
+    align-items: flex-end;
+}
+.FormChangePass .section-top *{
+    color: #29d9d9;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.FormChangePass div{
+    width: 20rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.FormChangePass div .input{
+    height: 2.3rem;
+    border-radius: 10px;
+    outline: none;
+}
+.FormChangePass div label{
+    color: #5BC0BE;
+}
+.FormChangePass .div-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FormChangePass .div-button button{
+    width: 30%;
+    margin-top: 1.9rem;
+    color: white;
+    background-color: #29d9d9;
+    border: none;
+    border-radius: 9px;
+    
+}
